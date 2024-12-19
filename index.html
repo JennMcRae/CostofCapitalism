@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What I'm Owed Calculator</title>
+    <title>Cost of Capitalism Calculator</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -54,7 +54,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>What I'm Owed Calculator</h1>
+        <h1>Cost of Capitalism Calculator</h1>
         <form id="owedCalculator">
             <label for="gender">Select Gender:</label>
             <select id="gender" required>
@@ -98,7 +98,7 @@
             const totalOwed = polycrisisCost + opportunityCost + survivalCost - income;
 
             document.getElementById("result").innerHTML = `
-                <p>The total annual cost of harm and survival is:</p>
+                <p>After earning your income, paying taxes, and covering basic survival costs, the personal debt you incur—simply for trying to live under capitalism—is::</p>
                 <p style="color: #007BFF;">$${totalOwed.toLocaleString()} CAD</p>
             `;
         }
